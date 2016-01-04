@@ -3303,6 +3303,7 @@ body.is-touch .poptrox-popup .closer {
 	position: relative;
 }
 
+
 .img-overlay{
 	position: absolute;
 	top: 0;
@@ -3352,17 +3353,26 @@ body.is-touch .poptrox-popup .closer {
 	
 }
 
+.port-img a.fit {
+   pointer-events: none;
+   cursor: default;
+}
+
 @media screen and (min-width: 768px) {
 	.gallery-fix {
 		position: relative;
-		top: -10px;
+		
 	}
 	
 	.img-overlay{
-		height: 96.7%;
+		height: 100%;
 	}
 	
 	.overlay-link a{
 		margin-top: 120px;
 	}
+}
+
+a.resume-link, a.resume-link:hover, a.resume-link:active, a.resume-link:focus{
+	color: #98C593;
 }
