@@ -3334,11 +3334,11 @@ body.is-touch .poptrox-popup .closer {
 	display: inline-block;
 }
 
-.port-img:hover .overlay-link {
+.port-img:hover .overlay-link, .port-img:focus .overlay-link {
 	width: 100%;
 }
 
-.port-img:hover .img-overlay {
+.port-img:hover .img-overlay, .port-img:focus .img-overlay {
 	width: 100%;
 }
 
